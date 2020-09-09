@@ -1,0 +1,30 @@
+/* Import the fonts from Google Fonts. Two fonts are added here: Bangers and Roboto. */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+main {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+h1,
+h2 {
+    font-family: "Bangers", Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%; /* Prevent images from overflowing content area. */
+}
+
+ol,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
